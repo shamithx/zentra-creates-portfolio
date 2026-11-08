@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "siteId": "zentra-studio",
+  "name": "zentra-studio",
+  "kind": "react-vite",
+  "devCommand": "vite",
+  "buildCommand": "vite build",
+  "outputDir": "dist",
+  "entry": "index.html",
+  "createdBy": "accio-site-builder",
+  "createdAt": "2026-08-12T09:13:17.074Z",
+  "siteIdSyncStatus": "synced",
+  "installedAt": "2026-10-22T10:29:52.059Z",
+  "databaseUrl": ""
+}

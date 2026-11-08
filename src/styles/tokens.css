@@ -1,0 +1,50 @@
+/* ============================================================
+   ZENTRA — Design Tokens
+   Dark monochrome · engraving · secret-society atmosphere
+   ============================================================ */
+
+:root {
+  /* ——— Surface ——— */
+  --ink-950: #070708;   /* soft black — page base */
+  --ink-900: #0a0a0b;   /* deep charcoal — section base */
+  --ink-850: #0d0d0f;   /* elevated panels */
+  --ink-800: #121214;   /* cards */
+  --ink-750: #17171a;   /* card hover */
+  --ink-700: #1d1d21;   /* hairlines on dark */
+
+  /* ——— Paper (warm off-white) ——— */
+  --paper:      #eae4d8;
+  --paper-dim:  #a8a294;
+  --paper-faint:#6e6a60;
+  --paper-ghost:#45433d;
+
+  /* ——— Muted gold ——— */
+  --gold:       #c2a36b;
+  --gold-soft:  #8f7a4e;
+  --gold-faint: rgba(194, 163, 107, 0.35);
+
+  /* ——— Lines ——— */
+  --hairline:      rgba(234, 228, 216, 0.14);
+  --hairline-soft: rgba(234, 228, 216, 0.08);
+  --hairline-gold: rgba(194, 163, 107, 0.38);
+
+  /* ——— Type ——— */
+  --font-display: 'Playfair Display', 'Didot', 'Bodoni MT', 'Georgia', serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* ——— Rhythm ——— */
+  --gutter: clamp(20px, 4.5vw, 56px);
+  --container: 1440px;
+  --section-pad: clamp(96px, 13vh, 168px);
+
+  /* ——— Motion ——— */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 0.35s;
+  --dur-med: 0.7s;
+  --dur-slow: 1.2s;
+
+  /* ——— Atmosphere ——— */
+  --grain-opacity: 0.05;
+  --radius: 2px;
+}
